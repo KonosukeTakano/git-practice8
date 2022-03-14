@@ -60,3 +60,11 @@ ul li::before{
 /*
 デスクトップサイズ
 ================================================ */
+@media (min-width: 700px){
+    /*Layout*/
+    .container{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+}
