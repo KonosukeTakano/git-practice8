@@ -65,6 +65,15 @@ ul li::before{
     .container{
         display:flex;
         justify-content: space-between;
-        
+
+    }
+        /*Main*/
+    main{
+        width: 70%;
+    }
+
+    /*Aside*/
+    aside{
+        width: 26%;
     }
 }
