@@ -76,4 +76,9 @@ ul li::before{
     aside{
         width: 26%;
     }
+
+    .sticky{
+        position: sticky;
+        top: 1rem;
+    }
 }
