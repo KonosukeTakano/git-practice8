@@ -48,7 +48,14 @@ li {
     margin: .5rem 0;
 }
 /* リストの装飾 */
-
+ul li::before{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;  
+    background: #0bd;
+    margin: 3px;
+}
  
 /*
 デスクトップサイズ
